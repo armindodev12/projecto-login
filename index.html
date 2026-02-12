@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="media-query.css">
 </head>
 <body>
-        <form action="cadastro.py" method="get">
+        <form action="cadastro.php" method="post">
             <div>
                 <h2>Fazer Login</h2>
                 <p>Ola, caro(a) usuário(a)!</p>
@@ -18,11 +18,11 @@
                     <input type="email" name="e-mail" id="e-mail" placeholder="exemplo@gmail.com" required></p>
                     <p>
                     <label for="ipass">Senha:</label>
-                    <input type="password" name="ipass" id="ipass" placeholder="Máximo 6 de dígitos" required>
+                    <input type="password" name="ipass" id="ipass" placeholder="Mínimo de 6 dígitos" required>
                     </p>
                     <div class="ppr"><input type="submit" value="Entrar" id="ep"></div>
                     <p><a href="#">Esqueci a senha</a></p>
-                    <p><a id="rp" href="#">Não tem conta? Crie agora</a></p>
+                    <p><a id="rp" href="index1.html">Não tem conta? Crie agora</a></p>
                 </div>
             </div>
         </form>

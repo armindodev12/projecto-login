@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form {
+    background-color: rgb(0, 102, 255);
+    width: 500px;
+    border: 1px solid aqua;
+    border-radius: 0px;
+    margin: auto;
+    height: 60vh;
+    margin-top: 120px;
+    padding: 10px;
+}
+div {
+    margin-top: 5px;
+}
+}
