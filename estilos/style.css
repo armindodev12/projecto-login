@@ -11,7 +11,7 @@ body {
 }
 form {
     background-color: rgb(0, 102, 255);
-    width: 350px;
+    width: 300px;
     border: 1px solid aqua;
     border-radius: 20px;
     margin: auto;
@@ -32,7 +32,7 @@ form p {
     margin-bottom: 10px;
 }
 input {
-    width: 200px;
+    width: 150px;
     padding: 7px;
     border-radius: 7px;
     border: none;
@@ -50,15 +50,26 @@ input {
 }
 #ep {
     background-color: rgb(78, 188, 231);
-    width: 310px;
+    width: 240px;
 }
 a { 
     display: inline-block;
     background-color: rgb(80, 162, 235);
     text-align: center;
-    width: 300px;
+    width: 230px;
     padding: 6px;
     border-radius: 6px;
     text-decoration: none;
     color: rgb(0, 28, 151);
+}
+#rp {
+    background-color: transparent;
+    color: rgb(0, 195, 255);
+}
+footer {
+    display: block;
+    background-color: rgba(6, 72, 148, 0.644);
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
 }
