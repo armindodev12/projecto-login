@@ -20,6 +20,9 @@ form {
     padding: 10px;
     
 }
+div {
+    margin-top: 20px;
+}
 form h2 {
     text-align: center;
 }
